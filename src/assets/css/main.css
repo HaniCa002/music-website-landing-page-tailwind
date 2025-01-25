@@ -780,6 +780,14 @@ video {
   width: 2.25rem;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -1190,6 +1198,12 @@ video {
   text-decoration-line: underline;
 }
 
+@media (min-width: 640px) {
+  .sm\:w-80 {
+    width: 20rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:mb-0 {
     margin-bottom: 0px;
@@ -1197,6 +1211,10 @@ video {
 
   .md\:ml-9 {
     margin-left: 2.25rem;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
   }
 
   .md\:flex {
@@ -1209,6 +1227,10 @@ video {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
   }
 
   .md\:flex-row {
